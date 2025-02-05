@@ -1,0 +1,15 @@
+dataset_name: "mbpp"
+
+train_dataset_path: "tagger_dataset_mbpp_entropy0.3_train.pkl"
+evaluate_dataset_path: "tagger_dataset_mbpp_entropy0.3_validation.pkl"
+test_dataset_path: "tagger_dataset_mbpp_entropy0.3_test.pkl"
+other_test_dataset_path: "tagger_dataset_humaneval_entropy0.3_test.pkl"
+
+epochs: 100
+batch_size: 32
+hidden_size: 768
+entropy_threshold: 1.5
+
+lr: 1e-4
+weight_decay: 2e-5
+early_stopping_threshold: 0.01

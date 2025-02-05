@@ -1,0 +1,10 @@
+*ds*
+*pycache**
+*.out
+*outputs*
+*legacy*
+*logs*
+*wandb*
+*.json
+*.csv
+*playground*
